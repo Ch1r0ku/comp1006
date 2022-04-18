@@ -1,4 +1,7 @@
 <?php
+$title = 'Save logo';
+require 'include/header.php'; ?>
+<?php
 $directory = "img/";
 $target_file = $directory . basename($_FILES["fileToUpload"]["name"]);
 $isgoodtoupload = 1;
