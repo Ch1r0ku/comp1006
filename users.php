@@ -5,7 +5,7 @@ require 'include/header.php'; ?>
 <h1>Users</h1>
 <?php
 if (!empty($_SESSION['username'])) {
-    echo '<a href="game-details.php">Add a New Game</a>';
+    echo '<a href="register.php">Add a new user</a>';
 }
 
 try {
